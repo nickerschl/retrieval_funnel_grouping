@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nickerschl-toolproto_jd460"
+name = "nickerschl-retrieval_funnel_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出工具调用协议工程师·检索召回的漏斗分析上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://nickerschl.github.io"
-Repository = "https://github.com/nickerschl/toolproto_jd460"
-Issues = "https://github.com/nickerschl/toolproto_jd460/issues"
+Repository = "https://github.com/nickerschl/retrieval_funnel_grouping"
+Issues = "https://github.com/nickerschl/retrieval_funnel_grouping/issues"
 
 [project.scripts]
-toolproto_jd460 = "toolproto_jd460:main"
+retrieval_funnel_grouping = "retrieval_funnel_grouping:main"
 
 [tool.setuptools]
-py-modules = ["toolproto_jd460"]
+py-modules = ["retrieval_funnel_grouping"]
